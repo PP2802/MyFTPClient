@@ -305,3 +305,4 @@ Für die im Projekt eingebundenen externen Komponenten gelten deren jeweilige Li
 - [`Pods`](/Users/peterpetermann/Desktop/Codex/MyFTPClient/Pods)
 
 Die App selbst ist aktuell ein projektspezifischer Prototyp mit fest eingebetteter Zielkonfiguration.
+Zur Fortsetzung der Bearbeitung: codex resume 019d440e-866d-7210-87b9-4027d8617a15
