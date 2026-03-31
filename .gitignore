@@ -1,0 +1,25 @@
+# Xcode user data
+xcuserdata/
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+
+# Build products
+DerivedData/
+build/
+
+# Swift Package Manager
+.build/
+SourcePackages/
+
+# CocoaPods
+Pods/
+
+# macOS
+.DS_Store
+
+# Temporary files
+*.swp
+*.tmp
+
+# Local sandbox/home artifacts
+.home/

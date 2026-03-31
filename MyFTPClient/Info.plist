@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>de</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.utilities</string>
+	<key>NSDesktopFolderUsageDescription</key>
+	<string>Die App zeigt Desktop-Dateien an und kann Dateien dorthin übertragen.</string>
+	<key>NSDocumentsFolderUsageDescription</key>
+	<string>Die App zeigt Dokumente an und kann Dateien dorthin übertragen.</string>
+	<key>FTPPassword</key>
+	<string>28pJp@0247</string>
+	<key>FTPPrivateKeyPath</key>
+	<string></string>
+	<key>FTPPort</key>
+	<integer>22</integer>
+	<key>FTPServer</key>
+	<string>ssh.strato.de</string>
+	<key>FTPType</key>
+	<string>sftp</string>
+	<key>FTPUsername</key>
+	<string>peter-petermann.de</string>
+</dict>
+</plist>

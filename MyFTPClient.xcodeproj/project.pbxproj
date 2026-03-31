@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F1A2E6C15358E556EC59A7F /* Pods_MyFTPClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9C407521339738ECD06419 /* Pods_MyFTPClient.framework */; };
+		AA0000010000000000000001 /* MyFTPClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0001010000000000000001 /* MyFTPClientApp.swift */; };
+		AA0000020000000000000001 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0001020000000000000001 /* ContentView.swift */; };
+		AA0000030000000000000001 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0001030000000000000001 /* Models.swift */; };
+		AA0000040000000000000001 /* SFTPService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0001040000000000000001 /* SFTPService.swift */; };
+		AA0000050000000000000001 /* FTPClientViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0001050000000000000001 /* FTPClientViewModel.swift */; };
+		AA0000060000000000000001 /* Citadel in Frameworks */ = {isa = PBXBuildFile; productRef = AA0000610000000000000001 /* Citadel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		44ADDFE59D7D28342840A85C /* Pods-MyFTPClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFTPClient.release.xcconfig"; path = "Target Support Files/Pods-MyFTPClient/Pods-MyFTPClient.release.xcconfig"; sourceTree = "<group>"; };
+		4E3D2267772D2F4EAEAFB0A6 /* Pods-MyFTPClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFTPClient.debug.xcconfig"; path = "Target Support Files/Pods-MyFTPClient/Pods-MyFTPClient.debug.xcconfig"; sourceTree = "<group>"; };
+		AA0000F00000000000000001 /* MyFTPClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFTPClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0001010000000000000001 /* MyFTPClientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFTPClientApp.swift; sourceTree = "<group>"; };
+		AA0001020000000000000001 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA0001030000000000000001 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		AA0001040000000000000001 /* SFTPService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFTPService.swift; sourceTree = "<group>"; };
+		AA0001050000000000000001 /* FTPClientViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTPClientViewModel.swift; sourceTree = "<group>"; };
+		AA0001060000000000000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE9C407521339738ECD06419 /* Pods_MyFTPClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFTPClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA0000300000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0000060000000000000001 /* Citadel in Frameworks */,
+				3F1A2E6C15358E556EC59A7F /* Pods_MyFTPClient.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AB9F57C320E1268F826ADBD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E3D2267772D2F4EAEAFB0A6 /* Pods-MyFTPClient.debug.xcconfig */,
+				44ADDFE59D7D28342840A85C /* Pods-MyFTPClient.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AA0000200000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				AA0000210000000000000001 /* MyFTPClient */,
+				AA0000220000000000000001 /* Products */,
+				0AB9F57C320E1268F826ADBD /* Pods */,
+				FF79FFE727EC8E5E4E086215 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AA0000210000000000000001 /* MyFTPClient */ = {
+			isa = PBXGroup;
+			children = (
+				AA0001010000000000000001 /* MyFTPClientApp.swift */,
+				AA0001020000000000000001 /* ContentView.swift */,
+				AA0001030000000000000001 /* Models.swift */,
+				AA0001040000000000000001 /* SFTPService.swift */,
+				AA0001050000000000000001 /* FTPClientViewModel.swift */,
+				AA0001060000000000000001 /* Info.plist */,
+			);
+			path = MyFTPClient;
+			sourceTree = "<group>";
+		};
+		AA0000220000000000000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA0000F00000000000000001 /* MyFTPClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF79FFE727EC8E5E4E086215 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE9C407521339738ECD06419 /* Pods_MyFTPClient.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA0000100000000000000001 /* MyFTPClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA0000520000000000000001 /* Build configuration list for PBXNativeTarget "MyFTPClient" */;
+			buildPhases = (
+				6FBF4787F5B7C4AE64206A92 /* [CP] Check Pods Manifest.lock */,
+				AA0000310000000000000001 /* Sources */,
+				AA0000300000000000000001 /* Frameworks */,
+				AA0000320000000000000001 /* Resources */,
+				F8BDA08189A23D49DE6D6B7F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFTPClient;
+			packageProductDependencies = (
+				AA0000610000000000000001 /* Citadel */,
+			);
+			productName = MyFTPClient;
+			productReference = AA0000F00000000000000001 /* MyFTPClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA0000010000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					AA0000100000000000000001 = {
+						CreatedOnToolsVersion = 26.0;
+					};
+				};
+			};
+			buildConfigurationList = AA0000510000000000000001 /* Build configuration list for PBXProject "MyFTPClient" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = de;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				de,
+				en,
+				Base,
+			);
+			mainGroup = AA0000200000000000000001;
+			packageReferences = (
+				AA0000600000000000000001 /* XCRemoteSwiftPackageReference "Citadel" */,
+			);
+			productRefGroup = AA0000220000000000000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA0000100000000000000001 /* MyFTPClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA0000320000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6FBF4787F5B7C4AE64206A92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyFTPClient-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8BDA08189A23D49DE6D6B7F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyFTPClient/Pods-MyFTPClient-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyFTPClient/Pods-MyFTPClient-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyFTPClient/Pods-MyFTPClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA0000310000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0000020000000000000001 /* ContentView.swift in Sources */,
+				AA0000050000000000000001 /* FTPClientViewModel.swift in Sources */,
+				AA0000030000000000000001 /* Models.swift in Sources */,
+				AA0000010000000000000001 /* MyFTPClientApp.swift in Sources */,
+				AA0000040000000000000001 /* SFTPService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA0000410000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_HARDENED_RUNTIME = NO;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AA0000420000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_HARDENED_RUNTIME = NO;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AA0000430000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E3D2267772D2F4EAEAFB0A6 /* Pods-MyFTPClient.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = x86_64;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VMPC4W58CB;
+				ENABLE_APP_SANDBOX = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MyFTPClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = de.peterpetermann.MyFTPClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		AA0000440000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44ADDFE59D7D28342840A85C /* Pods-MyFTPClient.release.xcconfig */;
+			buildSettings = {
+				ARCHS = x86_64;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VMPC4W58CB;
+				ENABLE_APP_SANDBOX = NO;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MyFTPClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = de.peterpetermann.MyFTPClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA0000510000000000000001 /* Build configuration list for PBXProject "MyFTPClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000410000000000000001 /* Debug */,
+				AA0000420000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA0000520000000000000001 /* Build configuration list for PBXNativeTarget "MyFTPClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000430000000000000001 /* Debug */,
+				AA0000440000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AA0000600000000000000001 /* XCRemoteSwiftPackageReference "Citadel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/orlandos-nl/Citadel";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AA0000610000000000000001 /* Citadel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA0000600000000000000001 /* XCRemoteSwiftPackageReference "Citadel" */;
+			productName = Citadel;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AA0000010000000000000000 /* Project object */;
+}
