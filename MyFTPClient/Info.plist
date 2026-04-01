@@ -25,7 +25,7 @@
 	<key>NSDocumentsFolderUsageDescription</key>
 	<string>Die App zeigt Dokumente an und kann Dateien dorthin übertragen.</string>
 	<key>FTPPassword</key>
-	<string>28pJp@0247</string>
+	<string>YOUR_FTP_KEY</string>
 	<key>FTPPrivateKeyPath</key>
 	<string></string>
 	<key>FTPPort</key>
@@ -35,6 +35,6 @@
 	<key>FTPType</key>
 	<string>sftp</string>
 	<key>FTPUsername</key>
-	<string>peter-petermann.de</string>
+	<string>YOUR_USER_NAME</string>
 </dict>
 </plist>
